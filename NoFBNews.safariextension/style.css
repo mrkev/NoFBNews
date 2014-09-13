@@ -1,0 +1,11 @@
+div[id*="topnews"], /* News feed */
+#pagelet_bookmark_nav, /* Left column: Bookmarks */
+a[href*="lists"], /* Left column: Lists like 'Close Friends' */
+div[id*="ticker"], /* Right column / Chat sidebar: news ticker, */
+
+div[id*="fbNotificationsJewel"],
+li.sideNavItem span.countValue,
+div[id*="pagelet_trending_tags_and_topics"]
+{
+  display: none !important;
+}
